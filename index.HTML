@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La programación es más importante de lo que crees">
+    <meta name="author" content="Emmanuel Chicoya Isleño">
+    <title>
+        MundoInformatico
+    </title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!--Inicio de header-->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav__logo">
+                <a href="#Inicio" class="nav__logo--link">MundoInformatico</a>
+
+            </div>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"> 
+                        <a href="#Inicio" class="nav__link"> Inicio </a> 
+                    </li>
+                    <li class="nav__item"> 
+                        <a href="#Nosotros" class="nav__link"> Nosotros </a> 
+                    </li>
+                    <li class="nav__item"> 
+                        <a href="#Servicios" class="nav__link"> Servicios </a> 
+                    </li>
+                    <li class="nav__item"> 
+                        <a href="#Contacto" class="nav__link"> Contacto </a> 
+                    </li>
+                
+                </ul>
+                
+            </div>
+
+            <button class="nav__toggle" aria-label="Abrir menu"> 
+                &#9776;
+
+            </button>
+            
+        </nav>
+    </header>
+    <!--fin de header-->
+
+    <!--main es el contenido principal-->
+    <!--bloque, elemento, modificador-->
+    <main>
+        <section id="inicio" class="section section--inicio">
+            <div class="section__content">
+                <h1 class="section__tittle"> Bienvenidos al MundoInformatico</h1>
+                <p class="section__description">
+                    Descubre los conceptos básicos de la programación
+                </p>
+                <img src="/img/logo.png" alt="Logo de MundoInformatico" Lenght="100" Height="100">
+                <br>
+                <a href="#Nosotros" class="button button--primary" id="miBoton">Conoce Más</a>
+            </div>
+        </section>
+
+        <section id="nosotros" class="section section--nosotros">
+            <div class="section__content">
+                <h2 class="section__tittle">Sobre Nosotros</h2>
+                <p class="section__description">Somos una empresa que se enfoca en la instrucción de conceptos básicos
+                    para comensar en el mundo de la programación mostrandote conceptos básicos y un poco de
+                    historia de esta interesante rama de la tecnologia.</p>
+            </div>
+        </section>
+        <section id="servicios" class="section section--servicios">
+            <div class="section__content">
+                <h2 class="section__tittle">Nuestros Servicios </h2>
+                <div class="services">
+                    
+
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section section--contacto">
+            <div class="section__content">
+                <h2 class="section__tittle">Contacto </h2>
+                <p class="section__description">Puedes contactarnos a través de nuestro formulario</p>
+                <form action="https://formspree.io/f/xzzznryl" method="post" class="form">
+                    <div class="form__group">
+                        <label for="nombre" class="form__label">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="email" class="form__label">Correo Electronico:</label>
+                        <input class="form__input" type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form__group">
+                        <label for="mensaje" class="form__label">Mensaje:</label>
+                        <textarea name="mensaje" id="mensaje" required class="form__textarea"></textarea>
+                    </div>
+                    <button type="submit" class="button button--secondary">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+
+        </section>
+
+        <section id="personal" class="section section--personal">
+            <div class="section__content">
+                <h2 class="section__tittle">Personal</h2>
+                <p class="section__description"> me caracterizo por ser alguien
+                    apegado al trabajo en equipo.
+                </p>
+
+
+                </p>
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
+    <footer class="footer">
+        <div class="footer__content">
+            <p class="footer__text"> 2024 MundoInformatico. ©Todos los Derechos Reservados </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
